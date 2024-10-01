@@ -6,6 +6,7 @@ bicep file that provisions an azure web app.
 
 1. You need to update the Azure service principal details in github secrets section. 
 1. delete your azure resources immediately after done with learning.
+1. every time this workflow runs, it will create a new web app. so, you need to change the web app name every time you run it. 
 
 # sample azure service principal
 
@@ -36,6 +37,10 @@ env:
   SUBSCRIPTION-ID: enter-your-sub-id-here
   WEBAPP-NAME: web-app-name-here
 ```
+
+# SKU
+
+You can see about all available, SKUs, here, https://azure.microsoft.com/en-us/pricing/details/app-service/windows/#pricing 
 
 # references
 

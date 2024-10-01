@@ -5,6 +5,8 @@ devops stuff for my students
 # Folders
 
 1. [Bicep Hello World](BicepHelloWorld)
+1. [Web API Hello World](WebAPIHelloWorld)
+1. [Razor Web App Hello World](RazorWebAppHelloWorld)
 
 # book a session with me
 
