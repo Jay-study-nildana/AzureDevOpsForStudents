@@ -24,6 +24,19 @@ bicep file that provisions an azure web app.
 }
 ```
 
+# YAML file
+
+You can create the resource group in your azure portal as per the name below or whatever name you create. Same with location. Keep location as it is, or, pick a location. Obviously, you need the subscription id and also the web app name.
+
+```
+env:
+  RESOURCE-GROUP: devops_sep30
+  LOCATION: centralindia
+  TEMPLATE-FILE: infra/webapp.bicep
+  SUBSCRIPTION-ID: enter-your-sub-id-here
+  WEBAPP-NAME: web-app-name-here
+```
+
 # references
 
 1. https://microsoftlearning.github.io/AZ-2008_DevOps_Foundations_Core_Principles_Practices/Instructions/Labs/03-implement-ci-cd-with-github-actions-and-iac-with-bicep.html
